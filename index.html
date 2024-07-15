@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords"
     content="Cristian sable, portfolio, Cristian, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-  <meta name="description"
-    content="Welcome to Cristian's Portfolio. Full-Stack Web Developer and Android App Developer" />
+  <meta name="description" content="Welcome to Cristian's Portfolio. Frontend Web Developer" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Font Awesome -->
@@ -16,8 +15,8 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Favicon -->
-  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
-  <title>Portfolio | Cristian Sable</title>
+  <link id='favicon' rel="shortcut icon" href="./assets/images/michi.png" type="image/x-png">
+  <title>Portfolio | Cristian Montoya</title>
 </head>
 
 <body oncontextmenu="return false">
@@ -29,7 +28,7 @@
 
   <!-- navbar starts -->
   <header>
-    <a href="/" class="logo"><i class="fab fa-node-js"></i> Cristian</a>
+    <a href="/portfolio" class="logo"><i class="fab fa-node-js"></i> Cristian</a>
 
     <div id="menu" class="fas fa-bars"></div>
     <nav class="navbar">
@@ -92,7 +91,7 @@
       </div>
       <div class="content">
         <h3>I'm Cristian</h3>
-        <span class="tag">Full Stack Developer</span>
+        <span class="tag">Frontend Developer</span>
 
         <p>I'm a Bucaramanga-based Frontend developer located in Colombia. I hold a degree in systems engineering from
           UIS. My unwavering passion lies in enhancing my coding proficiency and crafting cutting-edge applications and
@@ -107,12 +106,12 @@
             </div> -->
           <div class="box">
             <p><span> email : </span> ckcristock@gmail.com</p>
-            <p><span> place : </span> Bucarmaanga, Colombia</p>
+            <p><span> place : </span> Bucaramanga, Colombia</p>
           </div>
         </div>
 
         <div class="resumebtn">
-          <a href="https://drive.google.com/file/d/13v0FkdZ_A0iKxKW_uNk0GGliTpxjGqgD/view?usp=sharing" target="_blank"
+ <a href="https://drive.google.com/file/d/13v0FkdZ_A0iKxKW_uNk0GGliTpxjGqgD/view?usp=sharing" target="_blank"
             class="btn"><span>Resume</span>
             <i class="fas fa-chevron-right"></i>
           </a>
@@ -281,8 +280,7 @@
           <div class="desc">
             <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
             <div class="btns">
-              <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="https://github.com/Cristian-sable/Portfolio-Website" class="btn" target="_blank">Code <i
+              <a href="https://github.com/ckcristock/portfolio" class="btn" target="_blank">Code <i
                   class="fas fa-code"></i></a>
             </div>
           </div>
@@ -296,10 +294,14 @@
             <h3>Intelliveer</h3>
           </div>
           <div class="desc">
-            <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+            <p>It is just an example of a project in the USA. In this small example, whose
+              Settings module is the only one enabled, I show the html and css development with pixel by pixel accuracy,
+              and the use and consumption of API's in Angular.
+            </p>
             <div class="btns">
-              <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="https://github.com/Cristian-sable/Portfolio-Website" class="btn" target="_blank">Code <i
+              <a href="https://ckcristock.github.io/Intelliveer-settings/" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/ckcristock/Intelliveer-settings" class="btn" target="_blank">Code <i
                   class="fas fa-code"></i></a>
             </div>
           </div>
@@ -312,11 +314,13 @@
             <h3>Pharmasan Intranet</h3>
           </div>
           <div class="desc">
-            <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+            <p>Here, I led the migration of the 'SAP Consults' module from the legacy CodeIgniter-based intranet to the
+              new
+              intranet platform built with Vue 3, ensuring seamless transition. </p>
             <div class="btns">
-              <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="https://github.com/Cristian-sable/Portfolio-Website" class="btn" target="_blank">Code <i
-                  class="fas fa-code"></i></a>
+              <a href="https://intranet.pharmasan.net/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <!-- <a href="https://github.com/Cristian-sable/Portfolio-Website" class="btn" target="_blank">Code <i
+                  class="fas fa-code"></i></a> -->
             </div>
           </div>
         </div>
@@ -426,12 +430,13 @@
 
     <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
+    <div id="my-form-status"></div>
     <div class="container">
       <div class="content">
         <div class="image-box">
           <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
-        <form id="contact-form">
+        <form id="contact-formm" action="https://formspree.io/f/xqkvpdna" method="POST">
 
           <div class="form-group">
             <div class="field">
@@ -540,6 +545,7 @@
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/form.js"></script>
 
 </body>
 
