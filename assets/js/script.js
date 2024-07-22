@@ -75,7 +75,7 @@ $(document).ready(function () {
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "Frontend development",
+    "Full-stack development",
     // "backend development",
     // "web designing",
     // "android development",
